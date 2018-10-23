@@ -34,3 +34,9 @@ function removeLastDriver(name) {
   driversCopy.pop(name)
   return driversCopy
 }
+
+function removeFirstDriver(name) {
+  const driversCopy = drivers.slice()
+  driversCopy.pop(name)
+  return driversCopy
+}

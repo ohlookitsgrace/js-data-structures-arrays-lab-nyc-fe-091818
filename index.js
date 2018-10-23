@@ -28,3 +28,7 @@ function prependDriver(name) {
   driversCopy.unshift(name)
   return driversCopy
 }
+
+function removeLastDriver(name) {
+  
+}

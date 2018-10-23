@@ -24,5 +24,5 @@ function appendDriver(name) {
 }
 
 function prependDriver(name) {
-  driversCopy.pop()
+  driversCopy.unshift()
 }
